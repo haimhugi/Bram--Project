@@ -1,23 +1,33 @@
 .nav123 {
-    margin-bottom:20px !important;
+    margin-bottom: 20px !important;
     background-color: rgb(16, 124, 28) !important;
 
 }
-.foot{
+
+.foot {
     background-color: rgb(16, 124, 28) !important;
-    margin-top:20px !important;
+    margin-top: 20px !important;
 }
-.card{
+
+.card {
     width: 100% !important;
     height: 100% !important;
     padding-top: 60px !important;
     
+
 }
-.card-img-top{
+
+.card-img-top {
     width: 100% !important;
     height: 100% !important;
 }
-.col-lg-2{
-    margin-top:20px !important;
-    margin-bottom:20px !important;
+
+.col-lg-2 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.btn {
+  text-align: center !important;
+
 }
