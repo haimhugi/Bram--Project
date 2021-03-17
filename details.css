@@ -1,0 +1,88 @@
+.nav123 {
+    margin-bottom: 20px !important;
+    background-color: rgb(16, 124, 28) !important;
+
+}
+
+.foot {
+    background-color: rgb(16, 124, 28) !important;
+    margin-top: 20px !important;
+    bottom: 30px !important;
+    width: 100% !important;
+}
+
+.card {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.detailstext {
+    width: 50% !important;
+    height: 100% !important;
+    position: relative;
+
+
+
+}
+
+.card-img-top {
+    width: 80% !important;
+    height: 80% !important;
+    padding-right: 10%;
+}
+
+.col-lg-2 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.btn {
+    text-align: center !important;
+    background-color: rgb(16, 124, 28) !important;
+}
+
+
+.tmona {
+    width: 50% !important;
+
+
+}
+.pro{
+    font-size: xx-large;
+    margin-bottom: 50px;
+
+}
+.texti {
+    width: 50% !important;
+    
+}
+.bdy{
+    padding-top: 30px;
+    font-size: x-large;
+}
+.sal{
+    width: 30%;
+    
+}
+
+.shura1 {
+    width: 100% !important;
+    height: 300px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.shura2 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:360px) {}
+
+@media screen and (max-width:500px) {}
