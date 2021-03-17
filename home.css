@@ -1,9 +1,15 @@
 .nav123 {
     margin-bottom: 20px !important;
     background-color: rgb(16, 124, 28) !important;
+    height: 80px;
+    font-size: x-large;
+    
+ }
+ .nav-link{
+   width: 200px;
 
-}
-
+ }
+ .salkniot{ margin-left: 400px;}
 .foot {
     background-color: rgb(16, 124, 28) !important;
     margin-top: 20px !important;
