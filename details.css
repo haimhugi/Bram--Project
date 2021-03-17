@@ -1,8 +1,14 @@
 .nav123 {
     margin-bottom: 20px !important;
     background-color: rgb(16, 124, 28) !important;
+    height: 80px;
+    font-size: x-large;
+ }
+ .nav-link{
+   width: 200px;
+   margin-left: 30px;
 
-}
+ }
 
 .foot {
     background-color: rgb(16, 124, 28) !important;
