@@ -88,6 +88,29 @@
 
 
 
-@media screen and (max-width:360px) {}
 
-@media screen and (max-width:500px) {}
+
+@media screen and (max-width:700px) {
+   
+    .shura2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    .btn{
+        width: auto;
+    }
+    .tmona{
+        order:1;
+        box-sizing: border-box;
+        width: 100% !important;
+        height: 80% !important;
+    }
+    .texti{
+        order:2;
+        width: 100%  !important;
+        box-sizing: border-box;
+        height: 80% !important;
+    }
+}
