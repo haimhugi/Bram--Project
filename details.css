@@ -2,14 +2,20 @@
     margin-bottom: 20px !important;
     background-color: rgb(16, 124, 28) !important;
     font-size: x-large;
-    position:relative;
-    height: 102% !important;
- }
- .nav-link{
-   width: 200px;
-   margin-left: 30px;
+    position: relative;
+    color: azure !important;
+}
 
- }
+.nav-link {
+    width: 200px;
+    margin-left: 30px;
+
+}
+
+.nav-item {
+    position: relative;
+    margin-right: 50px;
+}
 
 .foot {
     background-color: rgb(16, 124, 28) !important;
@@ -27,9 +33,6 @@
     width: 50% !important;
     height: 100% !important;
     position: relative;
-
-
-
 }
 
 .card-img-top {
@@ -47,7 +50,9 @@
     text-align: center !important;
     background-color: rgb(16, 124, 28) !important;
 }
-
+.container-fluid {
+    background-color: rgb(16, 124, 28) !important;
+}
 
 .tmona {
     width: 50% !important;
@@ -88,17 +93,48 @@
 }
 
 
-
-
-.container-fluid{
-    background-color: rgb(16, 124, 28) !important;
-}
-
-
 li{
 font-size: xx-large;
 position: relative;
 
+}
+span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='azure' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+span.navbar-toggler-icon {
+    border-color: azure !important;
+}
+
+.navbar-toggler {
+    color: azure !important;
+}
+
+.geoli {
+    margin-right: 40px;
+    color: azure;
+}
+
+.shaot {
+    width: 30% !important;
+    margin-right: 40px;
+    color: azure;
+}
+
+.mapa {
+    width: 30% !important;
+}
+
+.zhoiot {
+    color: azure;
+
+}
+
+@media screen and (max-width:1200px) {
+    li {
+        width: 200px !important;
+        margin-left: auto;
+    }
 }
 
 @media screen and (max-width:700px) {
