@@ -1,8 +1,9 @@
 .nav123 {
     margin-bottom: 20px !important;
     background-color: rgb(16, 124, 28) !important;
-    height: 80px;
     font-size: x-large;
+    position:relative;
+    height: 102% !important;
  }
  .nav-link{
    width: 200px;
@@ -89,6 +90,16 @@
 
 
 
+.container-fluid{
+    background-color: rgb(16, 124, 28) !important;
+}
+
+
+li{
+font-size: xx-large;
+position: relative;
+
+}
 
 @media screen and (max-width:700px) {
    
@@ -104,13 +115,17 @@
     .tmona{
         order:1;
         box-sizing: border-box;
-        width: 100% !important;
-        height: 80% !important;
+        width:400px !important;
     }
     .texti{
         order:2;
-        width: 100%  !important;
         box-sizing: border-box;
-        height: 80% !important;
+        width:400px !important;
+        margin-right: 100px !important;
+
+    }
+    .container{
+        align-items:center!important;
+        justify-content: center!important;
     }
 }
