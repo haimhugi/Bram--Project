@@ -11,11 +11,16 @@
     margin-left: 30px;
 
 }
-
-.nav-item {
-    position: relative;
-    margin-right: 50px;
+.searchi{
+    margin-left: 20%;
 }
+
+
+.navim{
+    margin-left: auto  !important;
+}
+
+
 
 .foot {
     background-color: rgb(16, 124, 28) !important;
