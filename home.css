@@ -65,15 +65,28 @@ li {
     margin-right: 40px;
     color: azure;
 }
+.pargeolei{
+    text-align: right;
+    font-size: 200%  !important;
+    height: 100% !important;
+}
 
 .shaot {
     width: 30% !important;
     margin-right: 40px;
     color: azure;
 }
+.parshaot{
+    font-size: 200%;
+    text-align: right;
+    height: 100% !important;
+
+}
 
 .mapa {
     width: 30% !important;
+    height: 100% !important;
+
 }
 
 .zhoiot {
@@ -83,7 +96,8 @@ li {
 
 span.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='azure' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-}
+} 
+
 
 span.navbar-toggler-icon {
     border-color: azure !important;
@@ -98,5 +112,19 @@ span.navbar-toggler-icon {
     li {
         width: 200px !important;
         margin-left: auto;
+    }
+}
+@media screen and (max-width:700px) {
+    .mapa{
+        display: none;
+    }
+    .pargeolei{
+        text-align: center;
+    }
+    .parshaot{
+        text-align: center;
+    }
+    .shaot{
+        width: 100% !important;
     }
 }

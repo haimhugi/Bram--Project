@@ -98,9 +98,37 @@
 }
 
 
-li{
-font-size: xx-large;
-position: relative;
+li {
+    font-size: xx-large;
+    width: 100% !important;
+
+}
+
+.geoli {
+    margin-right: 40px;
+    color: azure;
+}
+.pargeolei{
+    text-align: right;
+    font-size: 200%  !important;
+    height: 100% !important;
+}
+
+.shaot {
+    width: 30% !important;
+    margin-right: 40px;
+    color: azure;
+}
+.parshaot{
+    font-size: 200%;
+    text-align: right;
+    height: 100% !important;
+
+}
+
+.mapa {
+    width: 30% !important;
+    height: 100% !important;
 
 }
 span.navbar-toggler-icon {
@@ -156,17 +184,38 @@ span.navbar-toggler-icon {
     .tmona{
         order:1;
         box-sizing: border-box;
-        width:400px !important;
+        width:150% !important;
+        align-items:center;
+
     }
     .texti{
         order:2;
         box-sizing: border-box;
-        width:400px !important;
-        margin-right: 100px !important;
+        align-items:center;
 
+    }
+    .bdy{
+        width:150% !important;
+        align-items:center;
+
+    }
+    .pro{
+        text-align: center;
     }
     .container{
         align-items:center!important;
         justify-content: center!important;
+    }
+    .mapa{
+        display: none;
+    }
+    .pargeolei{
+        text-align: center;
+    }
+    .parshaot{
+        text-align: center;
+    }
+    .shaot{
+        width: 100% !important;
     }
 }
