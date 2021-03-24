@@ -21,7 +21,6 @@
 }
 
 .foot {
-    position: absolute;
     bottom:0 !important;
     background-color: rgb(16, 124, 28) !important;
     margin-top: 20px !important;
@@ -152,12 +151,7 @@ span.navbar-toggler-icon {
 
 @media screen and (max-width:700px) {
    
-    .shura2{
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        display: none;
-    }
+ 
     .btn{
         width: auto;
     }
@@ -269,4 +263,56 @@ span.navbar-toggler-icon {
 a{
     position: relative;
     float: right;
+}
+.imgremove{
+    width: 20px ;
+    height: 20px;
+    cursor:pointer;
+    
+}
+.img-fluid{
+    width: 100% ;
+    height: 100%;
+
+}
+
+h4{
+    font-weight: normal;
+}
+.coteret{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.align{
+    margin: auto;
+    direction: rtl;
+
+}
+.mehir{
+    margin: auto;
+    direction: rtl;
+}
+.qty{
+    width:30%;
+}
+.btn{
+background-color: rgb(16, 124, 28) !important;
+}
+.copon{
+    width: 35%;
+    border-radius:4px !important; 
+}
+.codecopon{
+    width: 65%;
+    height: 123%;
+}
+.mishloah{
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+.coponsrow{
+    margin-bottom: 5%;
+}
+.sahacolsalkniot{
+    margin-bottom: 1%;
 }
