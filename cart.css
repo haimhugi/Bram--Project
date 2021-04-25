@@ -1,3 +1,7 @@
+body {
+    zoom: 70%;
+}
+
 .nav123 {
     margin-bottom: 20px !important;
     background-color: rgb(16, 124, 28) !important;
@@ -11,21 +15,22 @@
     margin-left: 30px;
 
 }
-.searchi{
+
+.searchi {
     margin-left: 20%;
 }
 
 
-.navim{
-    margin-left: auto  !important;
+.navim {
+    margin-left: auto !important;
 }
 
 .foot {
-    bottom:0 !important;
+    bottom: 0 !important;
     background-color: rgb(16, 124, 28) !important;
     margin-top: 20px !important;
     width: 100% !important;
-    
+
     height: auto;
 }
 
@@ -55,24 +60,28 @@
     text-align: center !important;
     background-color: rgb(16, 124, 28) !important;
 }
+
 .container-fluid {
     background-color: rgb(16, 124, 28) !important;
 }
 
-.pro{
+.pro {
     font-size: xx-large;
     margin-bottom: 50px;
 
 }
+
 .texti {
     width: 50% !important;
-    
+
 }
-.bdy{
+
+.bdy {
     padding-top: 30px;
     font-size: x-large;
 }
-.sal{
+
+.sal {
     width: 30%;
 }
 
@@ -88,9 +97,10 @@ li {
     margin-right: 40px;
     color: azure;
 }
-.pargeolei{
+
+.pargeolei {
     text-align: right;
-    font-size: 200%  !important;
+    font-size: 200% !important;
     height: 100% !important;
 }
 
@@ -99,7 +109,8 @@ li {
     margin-right: 40px;
     color: azure;
 }
-.parshaot{
+
+.parshaot {
     font-size: 200%;
     text-align: right;
     height: 100% !important;
@@ -111,6 +122,7 @@ li {
     height: 100% !important;
 
 }
+
 span.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='azure' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
@@ -151,46 +163,55 @@ span.navbar-toggler-icon {
 }
 
 @media screen and (max-width:700px) {
-   
- 
-    .btn{
+
+
+    .btn {
         width: auto;
     }
-    .tmona{
-        order:1;
+
+    .tmona {
+        order: 1;
         box-sizing: border-box;
-        width:150% !important;
-        align-items:center;
+        width: 150% !important;
+        align-items: center;
 
     }
-    .texti{
-        order:2;
+
+    .texti {
+        order: 2;
         box-sizing: border-box;
-        align-items:center;
+        align-items: center;
 
     }
-    .bdy{
-        width:150% !important;
-        align-items:center;
+
+    .bdy {
+        width: 150% !important;
+        align-items: center;
 
     }
-    .pro{
+
+    .pro {
         text-align: center;
     }
-    .container{
-        align-items:center!important;
-        justify-content: center!important;
+
+    .container {
+        align-items: center !important;
+        justify-content: center !important;
     }
-    .mapa{
+
+    .mapa {
         display: none;
     }
-    .pargeolei{
+
+    .pargeolei {
         text-align: center;
     }
-    .parshaot{
+
+    .parshaot {
         text-align: center;
     }
-    .shaot{
+
+    .shaot {
         width: 100% !important;
     }
 }
@@ -209,7 +230,7 @@ span.navbar-toggler-icon {
 
 .table-shopping-cart .price {
     font-weight: bold;
-    
+
 }
 
 
@@ -220,7 +241,7 @@ span.navbar-toggler-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     width: 100%;
-    justify-content:right;
+    justify-content: right;
 }
 
 
@@ -247,74 +268,89 @@ span.navbar-toggler-icon {
     border-color: #F44336
 }
 
-.sahacol{
+.sahacol {
     position: relative;
     width: fit-content;
     display: block;
     text-align: right;
 }
-.copon{
+
+.copon {
     position: relative;
     text-align: right;
 }
-.cartproducts{
-        text-align: right;
+
+.cartproducts {
+    text-align: right;
 
 }
-a{
+
+a {
     position: relative;
     float: right;
 }
-.imgremove{
-    width: 20px ;
+
+.imgremove {
+    width: 20px;
     height: 20px;
-    cursor:pointer;
-    
+    cursor: pointer;
+
 }
-.img-fluid{
-    width: 100% ;
+
+.img-fluid {
+    width: 100%;
     height: 100%;
 
 }
 
-h4{
+h4 {
     font-weight: normal;
 }
-.coteret{
+
+.coteret {
     margin-top: 100px;
     margin-bottom: 20px;
 }
-.align{
+
+.align {
     margin: auto;
     direction: rtl;
 
 }
-.mehir{
+
+.mehir {
     margin: auto;
     direction: rtl;
 }
-.qty{
-    width:30%;
+
+.qty {
+    width: 30%;
 }
-.btn{
-background-color: rgb(16, 124, 28) !important;
+
+.btn {
+    background-color: rgb(16, 124, 28) !important;
 }
-.copon{
+
+.copon {
     width: 35%;
-    border-radius:4px !important; 
+    border-radius: 4px !important;
 }
-.codecopon{
+
+.codecopon {
     width: 65%;
     height: 123%;
 }
-.mishloah{
+
+.mishloah {
     margin-bottom: .5rem;
     font-weight: 500;
 }
-.coponsrow{
+
+.coponsrow {
     margin-top: 10%;
     margin-bottom: 5%;
 }
-.sahacolsalkniot{
+
+.sahacolsalkniot {
     margin-bottom: 1%;
 }

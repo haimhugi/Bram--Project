@@ -1,3 +1,7 @@
+body {
+    zoom: 70%;
+}
+
 .nav123 {
     margin-bottom: 20px !important;
     background-color: rgb(16, 124, 28) !important;
@@ -11,13 +15,14 @@
     margin-left: 30px;
 
 }
-.searchi{
+
+.searchi {
     margin-left: 20%;
 }
 
 
-.navim{
-    margin-left: auto  !important;
+.navim {
+    margin-left: auto !important;
 }
 
 
@@ -55,6 +60,7 @@
     text-align: center !important;
     background-color: rgb(16, 124, 28) !important;
 }
+
 .container-fluid {
     background-color: rgb(16, 124, 28) !important;
 }
@@ -64,20 +70,24 @@
 
 
 }
-.pro{
+
+.pro {
     font-size: xx-large;
     margin-bottom: 50px;
 
 }
+
 .texti {
     width: 50% !important;
-    
+
 }
-.bdy{
+
+.bdy {
     padding-top: 30px;
     font-size: x-large;
 }
-.sal{
+
+.sal {
     width: 30%;
 }
 
@@ -108,9 +118,10 @@ li {
     margin-right: 40px;
     color: azure;
 }
-.pargeolei{
+
+.pargeolei {
     text-align: right;
-    font-size: 200%  !important;
+    font-size: 200% !important;
     height: 100% !important;
 }
 
@@ -119,7 +130,8 @@ li {
     margin-right: 40px;
     color: azure;
 }
-.parshaot{
+
+.parshaot {
     font-size: 200%;
     text-align: right;
     height: 100% !important;
@@ -131,6 +143,7 @@ li {
     height: 100% !important;
 
 }
+
 span.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='azure' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
@@ -171,51 +184,61 @@ span.navbar-toggler-icon {
 }
 
 @media screen and (max-width:700px) {
-   
-    .shura2{
+
+    .shura2 {
         width: auto;
         display: flex;
         flex-direction: column;
         display: none;
     }
-    .btn{
+
+    .btn {
         width: auto;
     }
-    .tmona{
-        order:1;
+
+    .tmona {
+        order: 1;
         box-sizing: border-box;
-        width:150% !important;
-        align-items:center;
+        width: 150% !important;
+        align-items: center;
 
     }
-    .texti{
-        order:2;
+
+    .texti {
+        order: 2;
         box-sizing: border-box;
-        align-items:center;
+        align-items: center;
 
     }
-    .bdy{
-        width:150% !important;
-        align-items:center;
+
+    .bdy {
+        width: 150% !important;
+        align-items: center;
 
     }
-    .pro{
+
+    .pro {
         text-align: center;
     }
-    .container{
-        align-items:center!important;
-        justify-content: center!important;
+
+    .container {
+        align-items: center !important;
+        justify-content: center !important;
     }
-    .mapa{
+
+    .mapa {
         display: none;
     }
-    .pargeolei{
+
+    .pargeolei {
         text-align: center;
     }
-    .parshaot{
+
+    .parshaot {
         text-align: center;
     }
-    .shaot{
+
+    .shaot {
         width: 100% !important;
     }
 }
